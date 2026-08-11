@@ -58,7 +58,7 @@ int main() {
     scanf(" %s", codigo2);
 
     printf("Nome da Cidade: \n");
-    scanf(" %s", cidade2);
+    scanf(" %[^\n]", cidade2);
 
     printf("População: \n");
     scanf("%d", &populacao2);
