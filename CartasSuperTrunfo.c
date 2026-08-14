@@ -21,10 +21,24 @@ int main() {
     float area2, pib2;
     float densidade2, capita2;
 
+    // Declaração de variáveis da carta 1
+    char estado1;
+    char cidade1[50], codigo1[50];
+    int populacao1, ponto_turistico1;
+    float area1, pib1;
+
+    // Declaração de variáveis da carta 2
+    char estado2;
+    char cidade2[50], codigo2[50];
+    int populacao2, ponto_turistico2;
+    float area2, pib2;
+
+
   // Área para entrada de dados
 
     
     // Entrada de dados para a carta 1
+        // Entrada de dados para a carta 1
     printf("Carta 1:\n");
 
     printf("Estado: \n");
@@ -90,6 +104,11 @@ int main() {
 
          // Área para exibição dos dados da cidade carta 1
 
+  // Área para exibição dos dados da cidade
+
+    
+     // Área para exibição dos dados da cidade carta 1
+
     printf("\n Carta 1 \n");
 
     printf("Estado: %c\n", estado1);
@@ -101,6 +120,9 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", ponto_turistico1);
     printf("Densidade Populacional: %.2f hab/km\n", densidade1);
     printf("PIB per Capita: %f reais\n", capita1);
+    printf("Área: %.2f\n", area1);
+    printf("PIB: %.2f\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", ponto_turistico1);
 
     // Área para exibição dos dados da cidade carta 2
 
@@ -117,6 +139,9 @@ int main() {
     printf("PIB per Capita: %f reais\n", capita2);
 
 
+    printf("Área: %.2f\n", area2);
+    printf("PIB: %.2f\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", ponto_turistico2);
 
 return 0;
 } 
