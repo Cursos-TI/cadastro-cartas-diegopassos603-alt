@@ -24,7 +24,9 @@ int main() {
     float superPoder2;
 
     // Declaração de variáveis da comparaçaõ das carta1 e carta2
-    char resultado1[50], resultado2[50];
+    int resultadoP, resultadoPt;
+    float resultadoA, resultadoPi, resultadoDp, resulatdoPc, resultadoSp;
+
     // Área para entrada de dados
 
     // Entrada de dados para a carta 1
@@ -137,14 +139,22 @@ int main() {
     
     //Comparação de Cartas
 
+    resultadoP = populacao1 > populacao2;
+    resultadoA = area2 > area2;
+    resultadoP = pib1 > pib2;
+    resultadoPt = ponto_turistico1 > ponto_turistico2;
+    resultadoDp = densidade1 > densidade2;
+    resulatdoPc = capita1 > capita2;
+    resultadoSp = superPoder1 > superPoder2;
+
     printf("\n--- Comparação das Cartas ---\n");
-    printf("População: %d\n", populacao1 > populacao2);
-    printf("Área: \n");
-    printf("PIB: \n");
-    printf("Ponto Turísticos: \n");
-    printf("Densidade Populacional: \n");
-    printf("PIB per Capita: \n");
-    printf("Super Poder: \n");
+    printf("População: (%d)\n", resultadoP);
+    printf("Área: (%d)\n", resultadoA);
+    printf("PIB: (%d)\n", resultadoPi);
+    printf("Ponto Turísticos: (%d)\n", resultadoPt);
+    printf("Densidade Populacional: (%d)\n", resultadoDp);
+    printf("PIB per Capita: (%d)\n", resulatdoPc);
+    printf("Super Poder: (%d)\n", resultadoSp);
 
     return 0;
 }
