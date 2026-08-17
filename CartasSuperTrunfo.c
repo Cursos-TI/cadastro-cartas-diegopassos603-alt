@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-
+    
+    // Área para definição das variáveis para armazenar as propriedades das cidades
+    
     // Declaração de variáveis da carta 1
     char estado1;
     char cidade1[50], codigo1[50];
@@ -16,6 +18,8 @@ int main() {
     float area2, pib2;
     float densidade2, capita2;
 
+    // Área para entrada de dados
+
     // Entrada de dados para a carta 1
     printf("\n--- Carta 1 ---\n");
 
@@ -27,6 +31,7 @@ int main() {
     
     printf("Nome da Cidade: \n");
     scanf(" %[^\n]", cidade1);
+    
 
     printf("População: \n");
     scanf("%d", &populacao1);
@@ -90,7 +95,6 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km\n", densidade1);
     printf("PIB per Capita: %f reais\n", capita1);
 
-    // Área para exibição dos dados da cidade carta 2
 
     printf("\n--- Carta 2 ---\n");
 
@@ -104,8 +108,6 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km\n", densidade2);
     printf("PIB per Capita: %f reais\n", capita2);
     
-    
-
 
     return 0;
 }
