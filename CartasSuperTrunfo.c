@@ -31,34 +31,26 @@ int main() {
 
     // Entrada de dados para a carta 1
     printf("\n--- Carta 1 ---\n");
-    fflush(stdout);
 
     printf("Estado: \n");
-    fflush(stdout);
     scanf(" %c", &estado1);
 
     printf("Codigo: \n");
-    fflush(stdout);
     scanf(" %s", codigo1);
     
     printf("Nome da Cidade: \n");
-    fflush(stdout);
     scanf(" %[^\n]", cidade1);
 
     printf("População: \n");
-    fflush(stdout);
     scanf("%lu", &populacao1);
 
     printf("Área: \n");
-    fflush(stdout);
     scanf("%f", &area1);
 
     printf("PIB: \n");
-    fflush(stdout);
     scanf("%f", &pib1);
 
     printf("Número de Pontos Turísticos: \n");
-    fflush(stdout);
     scanf("%d", &ponto_turistico1);
 
     // Cálculo da densidade populacional e do PIB per capita
@@ -72,34 +64,26 @@ int main() {
 
     // Entrada de dados para a carta 2
     printf("\n--- Carta 2 ---\n");
-    fflush(stdout);
 
     printf("Estado: \n");
-    fflush(stdout);
     scanf(" %c", &estado2);
 
     printf("Codigo: \n");
-    fflush(stdout);
     scanf(" %s", codigo2);
 
     printf("Nome da Cidade: \n");
-    fflush(stdout);
     scanf(" %[^\n]", cidade2);
 
     printf("População: \n");
-    fflush(stdout);
     scanf("%lu", &populacao2);
 
     printf("Área: \n");
-    fflush(stdout);
     scanf(" %f", &area2);
 
     printf("PIB: \n");
-    fflush(stdout);
     scanf("%f", &pib2);
 
     printf("Número de Pontos Turísticos: \n");
-    fflush(stdout);
     scanf("%d", &ponto_turistico2);
 
     // Cálculo da densidade populacional e do PIB per capita
@@ -155,6 +139,6 @@ int main() {
     printf("Densidade Populacional: (%d)\n", resultadoDp);
     printf("PIB per Capita: (%d)\n", resulatdoPc);
     printf("Super Poder: (%d)\n", resultadoSp);
-
+        
     return 0;
 }
